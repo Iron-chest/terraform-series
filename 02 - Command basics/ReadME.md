@@ -1,30 +1,30 @@
 # Terraform Command Basics
 
 ## Step-01: Terraform configuration files
-   - Terraform uses declarative syntax to describe your Infrastructure as Code (IaC) infrastructure
+- Terraform uses declarative syntax to describe your Infrastructure as Code (IaC) infrastructure
    and then persist it in configuration files that can be shared, reviewed, edited, versioned,
    preserved, and reused.
-   - Terraform configuration files can use either of two formats: Terraform domain-specific
+- Terraform configuration files can use either of two formats: Terraform domain-specific
    language (HashiCorp Configuration Language format [HCL]), which is the recommended
    approach, or JSON format if the files need to be machine-readable.
-   - Configuration files that use the HCL format end with the .tf file extension;
-   - Those using JSON format end with the .tf.json file extension.
-   - The Terraform format is human-readable, while the JSON format is machine readable
+- Configuration files that use the HCL format end with the .tf file extension;
+- Those using JSON format end with the .tf.json file extension.
+- The Terraform format is human-readable, while the JSON format is machine readable
 
 
 ## Step-01: Introduction to Terraform workflow - main commands
 
 ## Terraform init:
-    - Used to initialize a working directory containing terraform config files.
-    - This is the first command that should be run after writing a new terraform configuration file.
-    - It downloads providers and modules
+- Used to initialize a working directory containing terraform config files.
+- This is the first command that should be run after writing a new terraform configuration file.
+- It downloads providers and modules
     
 ## Terraform validate:
-    - Validates the configuration files in the respective directory to ensure that they are syntactically valid and internally consistent.
+- Validates the configuration files in the respective directory to ensure that they are syntactically valid and internally consistent.
     
 ## Terraform plan:
-    - Creates an execution plan
-    - Terraform performs a refresh and determines what actions are necessary to achieve the desired state specified in the configuration files
+- Creates an execution plan
+- Terraform performs a refresh and determines what actions are necessary to achieve the desired state specified in the configuration files
     
 ## Terraform apply:
 - Used to apply the changes required to reach the desired state of the configuration
