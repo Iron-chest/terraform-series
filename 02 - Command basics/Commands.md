@@ -67,8 +67,8 @@ destroy
 •will not modify infrastructure, but does modify the state file in order to mark a resource as tainted. Infrastructure and state are changed in next apply.
 •can be used to taint a resource within a module
 
-#**terraform fmt**
-•	format to lint the code into a standard format
+#  terraform fmt
+•format to lint the code into a standard format
 
-#**terraform console**
+# terraform console
 •command provides an interactive console for evaluating expressions.
