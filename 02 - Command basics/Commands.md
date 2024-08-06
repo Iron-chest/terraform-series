@@ -59,16 +59,16 @@ destroy
 •	terraform plan -destroy allows creation of destroy plan
 
 #**terraform import**
-•	helps import already-existing external resources, not managed by Terraform, into Terraform state and allow it to manage those resources
-•	Terraform is not able to auto-generate configurations for those imported modules, for now, and requires you to first write the resource definition in Terraform and then import this resource
+•helps import already-existing external resources, not managed by Terraform, into Terraform state and allow it to manage those resources
+•Terraform is not able to auto-generate configurations for those imported modules, for now, and requires you to first write the resource definition in Terraform and then import this resource
 
 #**terraform taint**
-•	marks a Terraform-managed resource as tainted, forcing it to be destroyed and recreated on the next apply.
-•	will not modify infrastructure, but does modify the state file in order to mark a resource as tainted. Infrastructure and state are changed in next apply.
-•	can be used to taint a resource within a module
+•marks a Terraform-managed resource as tainted, forcing it to be destroyed and recreated on the next apply.
+•will not modify infrastructure, but does modify the state file in order to mark a resource as tainted. Infrastructure and state are changed in next apply.
+•can be used to taint a resource within a module
 
 #**terraform fmt**
 •	format to lint the code into a standard format
 
 #**terraform console**
-•	command provides an interactive console for evaluating expressions.
+•command provides an interactive console for evaluating expressions.
