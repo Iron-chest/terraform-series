@@ -27,9 +27,9 @@
     - Terraform performs a refresh and determines what actions are necessary to achieve the desired state specified in the configuration files
     
 ## Terraform apply:
-    - Used to apply the changes required to reach the desired state of the configuration
-    - By default, apply scans the current directory for the configuration and applies the changes appropriately.
-    - The state file is created when apply is ran the first time.
+- Used to apply the changes required to reach the desired state of the configuration
+- By default, apply scans the current directory for the configuration and applies the changes appropriately.
+- The state file is created when apply is ran the first time.
     
 ## Terraform destroy:
  - Use to destroy terraform managed infrastructure.
