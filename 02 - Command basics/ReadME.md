@@ -32,8 +32,8 @@
     - The state file is created when apply is ran the first time.
     
 ## Terraform destroy:
-    - Use to destroy terraform managed infrastructure.
-    - This will ask for confirmation before destroying.    
+ - Use to destroy terraform managed infrastructure.
+ - This will ask for confirmation before destroying.    
 
 ## Step-02: Review terraform manifest for EC2 Instance
 - **Pre-Conditions-1:** Ensure you have **default-vpc** in that respective region
